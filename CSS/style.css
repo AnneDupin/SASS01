@@ -1,0 +1,33 @@
+/* Les variables de couleurs*/
+/* Mixins */
+/*  Body */
+p {
+  color: green;
+}
+
+h3 {
+  color: lime;
+}
+
+.partie {
+  color: pink;
+  font-size: 1, 5em;
+  font-family: cursive;
+}
+.partie .titre {
+  font-size: 2em;
+  font-family: sans-serif;
+  color: blue;
+}
+
+.par_1 {
+  color: yellow;
+  text-decoration: underline;
+}
+
+p:hover {
+  text-decoration: overline;
+  color: brown;
+}
+
+/*# sourceMappingURL=style.css.map */

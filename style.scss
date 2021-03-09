@@ -1,0 +1,31 @@
+/* Palette de variables de couleurs */
+
+$lightgrey: #CFDBD5;
+$lightyellow: #F5CB5C;
+$darkred: #A4161A;
+$pistachio: #90BE6D;
+$lightcoral: #F08080;
+
+/*donner aux variables des noms compréhensibles et faciles à mémoriser.Regrouper
+ les variables par couleur et  ordonner par nuance, de façon à s'y retrouver
+ facilement entre les clairs et les foncés.*/
+
+/*Sass propose quelques opérations avec les couleurs qui vous permettent
+d'étendre vos variables de couleurs. Par exemple, si je veux une couleur
+ plus brillante que celle que j'ai dans mes variables, je peux utiliser
+ l'opération saturate plutôt que de créer une nouvelle variable.
+
+ ex: h2 {
+  color: saturate($green-dark, 100%);
+} */
+
+
+/*  Body */
+
+p {
+  color: $lightgrey;
+}
+
+h3 {
+color: $pistachio;
+}
